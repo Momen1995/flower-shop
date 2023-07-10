@@ -18,6 +18,16 @@ body{
     margin: 0 auto;
 }
 
+.btn-primary{
+    background-color: #e55473;
+    padding: 10px 25px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: Lato;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
 /* =========Header section start========== */
 header{
     background-color: #fff;
@@ -27,13 +37,14 @@ header{
 
 .first-section{
     display: flex;
-    gap:2.3rem;
-    justify-content: space-around;
+    gap:2.5rem;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
 }
 
 .left-header{
-    width : 48%;
+    width : 50%;
    
 }
 
@@ -43,20 +54,22 @@ header{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .header-detail{
-    color: rgb(39,39,39);
+    color: rgba(39,39,39,0.7);
     text-align: justify;
+    margin-bottom: 15px;
 }
 
 .right-header{
     width:40%;
-  
 }
 
 .right-header img{
     width:430px;
     height: auto;
 }
+
+/* ==============main section start==================== */
