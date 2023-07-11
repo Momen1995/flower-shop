@@ -230,6 +230,7 @@ main{
     align-items: center;
     margin-top: 9rem;
     border-radius: 8px;
+    box-shadow: 2px 2px 2px rgba(229, 84, 115, 0.20);
 }
 
 .client-container{
@@ -246,7 +247,7 @@ main{
     text-align: center;
     font-size: 2rem;
     font-weight: 800;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 
 
@@ -255,13 +256,29 @@ main{
     color:rgba(39,39,39,0.70);
     text-align: center;
     font-size: 1.1rem;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     padding: 5px;
 }
 
 .client-img img{
     width:400px;
     height: auto;
+}
+
+.client-profile{
+    width:90%;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.client-profile img{
+    width:70px;
+    height: auto;
+    border: 2px solid  rgba(229, 84, 115, 0.10);
+    border-radius: 60%;
 }
 
 
