@@ -133,7 +133,7 @@ main{
 }
 
 .first-img img{
-    margin-top: 2px;
+    margin-top: 6px;
 }
 .second-img{
     width:26%;
@@ -144,6 +144,10 @@ main{
     align-items: center;
     background-color:   rgba(5, 151, 160, 0.15);
     border-radius: 230px 230px 0 0;
+}
+
+.second-img img{
+    margin-left: 7px;
 }
 .third-img{
     width:26%;
@@ -165,7 +169,7 @@ main{
 .img-link a{
     color: #272727;
     text-align: center;
-    padding : 10px 0;
+    padding : 20px 0;
 }
 
 /* ============icon section=========== */
@@ -173,10 +177,10 @@ main{
 .icon-section{
     width:100%;
     height: 230px;
-    background-color:  rgba(39, 39, 39, 0.05);
+    background-color:  rgba(39, 39, 39, 0.07);
     display: flex;
     gap:10px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-top: 7rem ;
     border-radius: 5px;
@@ -201,12 +205,15 @@ main{
     align-items: center;
 }
 
-.icon-3{
+.icon-three{
     width:30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.icon-img{
+    margin-right: 2rem;
 }
 /* ============hot deal section============= */
 
@@ -295,8 +302,10 @@ main{
     margin: auto;
 }
 
+
 .client-container .icon-img img{
     width:70px;
+    margin-left: 11.9rem;
 }
 
 .client-title{
@@ -335,7 +344,7 @@ main{
     width:70px;
     height: auto;
     border: 2px solid  rgba(229, 84, 115, 0.10);
-    border-radius: 60%;
+    border-radius: 50%;
 }
 
 
@@ -354,6 +363,10 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.background-container{
+    width:50%;
 }
 
 .background-title{
@@ -375,14 +388,15 @@ main{
 .form{
     width: 100%;
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 input[type="email"]{
+    width: 80%;
     background-color: #fff;
     padding: 1.2rem;
     border-radius: 8px;
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
+    text-align: left;
     font-weight: 400px;
 }
 
@@ -391,7 +405,7 @@ input[type="email"]{
 footer{
     background-color: #111010;
     width: 100%;
-    height: 350px;
+    height: 380px;
     display: flex;
     justify-content: center;
     align-items: center;
