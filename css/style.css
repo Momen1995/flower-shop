@@ -12,6 +12,54 @@ body {
 }
 
 /* =========== Same Design============== */
+/* Navbar Styling */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .containers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo .brand-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d32f2f;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #d32f2f;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 
 .container {
     width: 80%;
@@ -447,4 +495,66 @@ footer {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     margin-top: 13px;
+}
+
+/* responsive for small device */
+@media (max-width: 576px) {
+  .nav-links {
+    flex-direction: column;
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .first-section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-header ,.right-header{
+    width: 100%;
+    height: auto;
+}
+
+.left-header > h1{
+    text-align: left;
+    font-size: 2.2rem;
+}
+
+.left-header > p{
+    font-size: .9rem;
+}
+
+.btn-primary {
+    background-color: #e55473;
+    padding: 7px 20px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: Lato;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.img-size {
+    width: 100px;
+    height: auto;
+}
+
+.link {
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+}
+
+.icon-img {
+    padding: 15px 0 15px 45px;
+}
+
 }
